@@ -1,0 +1,87 @@
+<html>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+<!-- Form -->
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+        <script src="typeformjavascript.js">  
+        </script>  
+</head>
+
+<div id="fullpage" class="container">
+  <form action="">
+    <div class="container-header">
+      <div class="container-main">
+
+        <!-- Question 1 -->
+        <div class="section">
+          <div class="input-block">
+            <div class="label"> - what's your name? *</div>
+            <div class="input-control">
+              <input type="text" min="2" max="100" placeholder="Type your answer here" class="required" autocomplete="off" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="section">
+          <div class="input-block">
+            <div class="label">2.your email id*</div>
+            <div class="input-control">
+              <input type="text" min="8" max="112" placeholder="Enter you age" class="required" autocomplete="off" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="section">
+          <div class="input-block">
+            <div class="label">3. Your desgination (at birth) *</div>
+            <div class="input-control">
+              <input id="toggle-on-q2" class="toggle" name="q2" value="yes" type="radio" />
+              <label for="toggle-on-q2" class="btn"><span>A</span> option a</label>
+              <input id="toggle-off-q2" class="toggle" name="q2" value="no" type="radio" /><br>
+              <label for="toggle-off-q2" class="btn"><span>B</span> option b</label><br>
+              <label for="toggle-off-q2" class="btn"><span>C</span> option c</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="section">
+          <div class="input-block">
+            <div class="label">
+              4. Your Contact Number 
+              
+            </div>
+            <div class="input-control">
+              <input type="text" class="required" placeholder="Type your answer here" autocomplete="off" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- control Buttons -->
+
+<div id="controlButtons" class="hidden">
+
+  <a id="previous">
+    <button>
+      <p><i class="arrow up"></i></p>
+      <!-- Previous -->
+    </button>
+  </a>
+
+  <!-- Next -->
+
+  <a id="next">
+    <button>
+      <p><i class="arrow down"></i></p>
+    </button>
+  </a>
+</div>
+</html>
